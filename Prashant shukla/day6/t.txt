@@ -1,0 +1,41 @@
+css is stand for cascading style sheet it is used to style and design the layout of webpages 
+
+css describe her element to be display on screen  
+
+father of css is halkon william.
+
+
+types of css
+
+
+there are three type of css
+
+inline css
+internal css
+external css
+
+
+inline css-> 
+
+it is written directly inside and html tag using the style attribute .
+
+
+Internal css->
+Inside the html document in the had tag.
+
+
+External css->
+External css in the separate css file and link with html.
+
+
+
+
+
+text align property 
+
+
+right 
+left 
+center 
+justified
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Marquee with Border and Links</title>
+    <style>
+        .marquee-container {
+            border: 2px solid #007bff; /* नीला बॉर्डर */
+            padding: 10px;
+            width: 400px;
+            margin: 20px auto;
+            overflow: hidden;
+            background-color: #f0f8ff; /* हल्का नीला बैकग्राउंड */
+        }
+
+        marquee a {
+            color: #d63384;
+            text-decoration: none;
+            margin: 0 30px;
+            font-weight: bold;
+        }
+
+        marquee a:hover {
+            text-decoration: underline;
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<div class="marquee-container">
+    <marquee behavior="scroll" direction="left" scrollamount="5">
+        <a href="https://example.com" target="_blank">Home</a>
+        <a href="https://example.com/about" target="_blank">About Us</a>
+        <a href="https://example.com/services" target="_blank">Services</a>
+        <a href="https://example.com/contact" target="_blank">Contact</a>
+    </marquee>
+</div>
+
+</body>
+</html>
